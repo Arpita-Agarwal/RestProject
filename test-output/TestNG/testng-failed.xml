@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TestNG]">
+  <test name="GetData(failed)">
+    <classes>
+      <class name="getRequest.GetData">
+        <methods>
+          <include name="testResponsecode"/>
+          <include name="testbody"/>
+        </methods>
+      </class> <!-- getRequest.GetData -->
+    </classes>
+  </test> <!-- GetData(failed) -->
+</suite> <!-- Failed suite [TestNG] -->

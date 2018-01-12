@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2153" started-at="2018-01-10T14:32:16Z" finished-at="2018-01-10T14:32:18Z">
+  <suite name="TestNG" duration-ms="2192" started-at="2018-01-11T16:40:00Z" finished-at="2018-01-11T16:40:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2153" started-at="2018-01-10T14:32:16Z" finished-at="2018-01-10T14:32:18Z">
+    <test name="GetData" duration-ms="2192" started-at="2018-01-11T16:40:00Z" finished-at="2018-01-11T16:40:03Z">
       <class name="getRequest.GetData">
-        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:getRequest.GetData@2a2d45ba]" name="testResponsecode" duration-ms="2044" started-at="2018-01-10T20:02:16Z" finished-at="2018-01-10T20:02:18Z">
+        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:getRequest.GetData@2a2d45ba]" name="testResponsecode" duration-ms="2064" started-at="2018-01-11T22:10:00Z" finished-at="2018-01-11T22:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponsecode -->
-        <test-method status="PASS" signature="testbody()[pri:0, instance:getRequest.GetData@2a2d45ba]" name="testbody" duration-ms="71" started-at="2018-01-10T20:02:18Z" finished-at="2018-01-10T20:02:18Z">
+        <test-method status="PASS" signature="testbody()[pri:0, instance:getRequest.GetData@2a2d45ba]" name="testbody" duration-ms="96" started-at="2018-01-11T22:10:03Z" finished-at="2018-01-11T22:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testbody -->
       </class> <!-- getRequest.GetData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- GetData -->
+  </suite> <!-- TestNG -->
 </testng-results>

@@ -3,7 +3,33 @@
   <groupId>RestAssuredFramework</groupId>
   <artifactId>RestAssuredFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+<build>
+        <!-- Source directory configuration -->
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <!-- Following plugin executes the testng tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20.1</version>
+                <configuration>
+                    <!-- Suite testng xml file to consider for test execution -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>config\testNG.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+            <!-- Compiler plugin configures the java version to be usedfor compiling
+                the code -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 <dependencies>
 <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
@@ -11,5 +37,11 @@
     <artifactId>rest-assured</artifactId>
     <version>3.0.4</version>
 </dependency>
+        <!-- Dependency libraries to include for compilation -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.3.1</version>
+        </dependency>
 </dependencies>
 </project>
